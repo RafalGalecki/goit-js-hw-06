@@ -38,7 +38,6 @@ bodyGlobalStyle.style.maxWidth = "1200px";
 bodyGlobalStyle.style.margin = "0 auto";
 bodyGlobalStyle.style.fontSize = "24px";
 
-
 link.style.textDecoration = "none";
 link.style.color = "grey";
 link.style.marginLeft = "20px";
@@ -53,8 +52,7 @@ listOfImages.style.gap = "30px";
 listOfImages.style.margin = "20px";
 listOfImages.style.padding = "0";
 
-
-liItem.forEach(el => {
+liItem.forEach((el) => {
   el.style.flexBasis = "calc((100% - 30px * 2) / 3)";
   el.style.height = "240px";
   el.style.width = "340px";
