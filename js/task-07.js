@@ -4,6 +4,6 @@ const slidebar = document.querySelector("input");
 
 const changingFontSizeElement = document.getElementById("text");
 
-slidebar.addEventListener("change", (ev) => {
+slidebar.addEventListener("input", (ev) => {
   changingFontSizeElement.style.fontSize = `${ev.currentTarget.value}px`;
 });
